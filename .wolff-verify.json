@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_checks": {
+    "schema": "wolff-project-checks-v1",
+    "checks": {
+      "unittest": {
+        "argv": [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": ".",
+        "support": "supported"
+      }
+    }
+  }
+}
